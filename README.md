@@ -1,12 +1,12 @@
-# SessionManager File Scanner
+# Word File Scanner
 
-This is a simple Go program that recursively searches through a directory and its subdirectories for files containing the keyword `sessionManager`. It prints the paths of all matching files and reports the total number of matches found.
+This is a simple Go program that recursively searches through a directory and its subdirectories for files containing a string as mentioned by the user. It prints the paths of all matching files and reports the total number of matches found.
 
 ## 🧾 Features
 
 - Recursively scans directories
 - Reads and checks all file contents
-- Reports the files that contain the keyword `sessionManager`
+- Reports the files that contain the keystring
 - Displays the total count of matching files
 
 ## 🛠️ Usage
